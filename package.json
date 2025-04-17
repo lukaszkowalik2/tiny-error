@@ -12,6 +12,7 @@
 	},
 	"license": "MIT",
 	"author": {
+		"name": "Lukasz Kowalik",
 		"email": "lkowalik04@gmail.com"
 	},
 	"type": "commonjs",
