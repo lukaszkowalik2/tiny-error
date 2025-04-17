@@ -1,5 +1,5 @@
 {
-	"name": "tiny-error",
+	"name": "@lukaszkowalik2/tiny-error",
 	"version": "1.0.0",
 	"description": "A minimal library for throwing errors in development mode only.",
 	"homepage": "https://github.com/lukaszkowalik2/tiny-error#readme",
