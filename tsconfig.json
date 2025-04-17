@@ -1,15 +1,24 @@
 {
 	"compilerOptions": {
-		"declaration": true,
-		"declarationMap": true,
-		"esModuleInterop": true,
+		"target": "ES2022",
 		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
-		"noEmit": true,
-		"resolveJsonModule": true,
+		"esModuleInterop": true,
 		"skipLibCheck": true,
+
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"outDir": "lib",
+
 		"strict": true,
-		"target": "ES2022"
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"types": ["vitest/globals", "node"]
 	},
-	"include": ["src"]
+	"include": ["src"],
+	"exclude": ["node_modules", "lib"]
 }
